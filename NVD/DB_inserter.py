@@ -51,9 +51,10 @@ def main_cve_DB():
             conn.commit
         
         
-    print("Обновление базы данных уязвимостей NIST...")
+    # print("Обновление базы данных уязвимостей NIST...")
     data_to_insert = main_parser()
         
     insert_data(conn, data_to_insert)
+    print('send signal to main server module')
 
     conn.close()

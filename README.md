@@ -4,6 +4,12 @@
 - Realtime agent-based process monitoring
 - Automatic detection of vulnerable applications
 
+# Malware hashes
+- Директория Malware_hashes необходима для ежедневного скачивания вредоносных хэшей SHA256 и хранения файла с хэшами
+
+# NVD
+- Директория NVD необходима для скачивания общедоступных баз CVE и добавления релевантной информации в БД
+
 # Building from source
 
 ```bash
